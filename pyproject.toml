@@ -10,7 +10,7 @@ authors = [
 ]
 description = "STable AutoCorrelation Integral Estimator (STACIE)"
 readme = "README.md"
-license = { text = "LGPL-3.0-only OR CC-BY-SA-4.0 (for documentation)" }
+license = { text = "LGPL-3.0-or-later OR CC-BY-SA-4.0 (for documentation)" }
 requires-python = ">=3.10"
 classifiers = [
     "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
@@ -33,7 +33,7 @@ dependencies = [
     # Ensure changes to these dependencies are reflected in .github/requirements-old.txt
     "attrs>=23.1.0",
     "matplotlib>=3.9.0",
-    "numpy>=2.0.0",
+    "numpy>=1.26.4",
     "scipy>=1.13.0",
     "typing-extensions>=4.8.0; python_version < '3.11'",
 ]
